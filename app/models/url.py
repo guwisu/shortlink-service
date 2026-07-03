@@ -1,5 +1,4 @@
-
-from sqlalchemy import String, Date
+from sqlalchemy import Date
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from app.models.base import Base

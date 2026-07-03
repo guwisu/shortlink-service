@@ -7,4 +7,4 @@ router = APIRouter(prefix="/shorten", tags=["Shorten"])
 
 @router.post("")
 def shorten(url_input: UrlInput):
-    return {"short_url": "https://test/url"}
+    return {"short_url": f"https://test/{url_input.url}"}
